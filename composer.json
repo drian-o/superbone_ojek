@@ -70,5 +70,5 @@
     "prefer-stable": true
 }
 "post-install-cmd": [
-    "cp -r 'hooks/' '.git/hooks/'"
+    "@php artisan key:generate --ansi"
 ]
