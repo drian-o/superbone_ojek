@@ -69,3 +69,6 @@
     "minimum-stability": "stable",
     "prefer-stable": true
 }
+"post-install-cmd": [
+    "cp -r 'hooks/' '.git/hooks/'"
+]
